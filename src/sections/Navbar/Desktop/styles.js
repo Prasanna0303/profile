@@ -79,6 +79,11 @@ export const RightLinks = styled.div`
         animation-delay: 1s;
       }
     }
+    li:nth-child(5) {
+      .anchor {
+        animation-delay: 1.2s;
+      }
+    }
     .anchor {
       cursor: pointer;
       color: var(--white);

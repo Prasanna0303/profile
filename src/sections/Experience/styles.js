@@ -33,9 +33,19 @@ export const ExpCard = styled.div`
   position: relative;
   transition: 0.3s ease-in-out;
   display: flex;
+  flex-direction: column;
   margin-bottom: 2.2rem;
   &:last-child {
     margin-bottom: 0rem;
+  }
+  .top-bar {
+    display: flex;
+  }
+  .achievements {
+    margin-top: 10px;
+    ul {
+      padding-left: 1.5rem;
+    }
   }
   .company-logo {
     transition: 0.5s ease-in-out;

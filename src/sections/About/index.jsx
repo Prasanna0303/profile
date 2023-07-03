@@ -2,7 +2,7 @@ import { useRef } from "react";
 import useOnIntersect from "../../hooks/intersection";
 import { Header } from "../Experience/styles";
 import { AboutMeCont, AboutCont } from "./styles";
-import me from "../../assets/pngs/me.png";
+import me from "../../assets/pngs/ppic.png";
 
 function AboutMe() {
   const aboutRef = useRef(null);
@@ -21,15 +21,15 @@ function AboutMe() {
         </div>
         <div className="prf-det">
           <p>
-            Hello, my name is <b>Venkatashiva Avula</b>, You can simply call me{" "}
-            <b>Shiva</b>. Professionally I'm a <b>Front End developer</b>. I
-            like to build web apps using the <b>MERN</b> stack.
+            Hello, my name is <b>Venkata Prasanna C</b>, You can simply call me{" "}
+            <b>Prasanna</b>. Professionally I'm Expert in SEO content creation and have in-depth knowledge of SEO tools & techniques.
+            I would like to develop and implement SEO strategies to improve the visibility of web pages in SERP results.
           </p>
           <p>
             I like to learn/try new technologies and implement them in daily
             work. I like to take responsibility for my work.
           </p>
-          <p>I like to play Cricket, listen to Music, watching Movies.</p>
+          {/* <p>I like to play Cricket, listen to Music, watching Movies.</p> */}
         </div>
       </AboutCont>
     </AboutMeCont>

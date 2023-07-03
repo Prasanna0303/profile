@@ -1,44 +1,44 @@
-import javscript from "../../assets/pngs/javascript.png";
-import reactjs from "../../assets/pngs/reactjs.png";
-import nextjs from "../../assets/pngs/nextjs.png";
+import ms_office from "../../assets/pngs/ms_office.png";
+import seo from "../../assets/pngs/seo.png";
+import analytics from "../../assets/pngs/analytics.png";
 import html from "../../assets/pngs/html.png";
-import css from "../../assets/pngs/css.png";
-import redux from "../../assets/pngs/redux.png";
-import nodejs from "../../assets/pngs/nodejs.png";
-import mongodb from "../../assets/pngs/mongodb.png";
+import wordpress from "../../assets/pngs/wordpress.png";
+import latex from "../../assets/pngs/latex.png";
+import contentcreation from "../../assets/pngs/contentcreation.png";
+import mathjax from "../../assets/pngs/mathjax.png";
 
 const skillData = [
   {
-    name: "NextJS",
-    image: nextjs,
-  },
-  {
-    name: "ReactJS",
-    image: reactjs,
-  },
-  {
-    name: "Javascript",
-    image: javscript,
+    name: "MS Office",
+    image: ms_office,
   },
   {
     name: "HTML",
     image: html,
   },
   {
-    name: "CSS",
-    image: css,
+    name: "SEO",
+    image: seo,
   },
   {
-    name: "Redux",
-    image: redux,
+    name: "WordPress",
+    image: wordpress,
   },
   {
-    name: "NodeJS",
-    image: nodejs,
+    name: "LaTex",
+    image: latex,
   },
   {
-    name: "MongoDB",
-    image: mongodb,
+    name: "Analytics",
+    image: analytics,
+  },
+  {
+    name: "MathJax",
+    image: mathjax,
+  },
+  {
+    name: "Content Creation",
+    image: contentcreation,
   },
 ];
 

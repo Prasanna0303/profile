@@ -3,11 +3,10 @@ import { useEffect, useState } from "react";
 import { AppMain } from "./app-styles";
 import InitialLoader from "./sections/Loader";
 import Navbar from "./sections/Navbar";
-import Content from "./sections/Content";
+import Content from "./sections/content";
 import Socials from "./sections/Socials";
 import VerticalEmail from "./sections/Email";
 import Footer from "./sections/Footer";
-
 function AppContainer({ showLoaderAnimation }) {
   return (
     <AppMain>

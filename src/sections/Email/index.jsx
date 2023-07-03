@@ -3,8 +3,8 @@ import styled from "styled-components";
 function VerticalEmail() {
   return (
     <Vertical className="lazy-load">
-      <a href="mailto:avenkatashiva@gmail.com" className="email-href">
-        avenkatashiva@gmail.com
+      <a href="mailto:prasannasai54@gmail.com" className="email-href">
+        prasannasai54@gmail.com
       </a>
       <div className="bar"></div>
     </Vertical>

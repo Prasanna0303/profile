@@ -126,6 +126,11 @@ const MobileLinks = styled.div`
         animation-delay: 0.8s;
       }
     }
+    li:nth-child(5) {
+      .anchor {
+        animation-delay: 1s;
+      }
+    }
     .anchor {
       cursor: pointer;
       color: var(--white);

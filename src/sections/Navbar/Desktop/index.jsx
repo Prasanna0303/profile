@@ -50,9 +50,18 @@ export const Links = ({ mobile = false, onClick }) => {
         <a
           onClick={onAnchorClick}
           className="anchor lazy-load"
+          href="#education"
+        >
+          <span>04.</span> {mobile && <br />} Education
+        </a>
+      </li>
+      <li>
+        <a
+          onClick={onAnchorClick}
+          className="anchor lazy-load"
           href="#contact-me"
         >
-          <span>04.</span> {mobile && <br />} Get In Touch
+          <span>05.</span> {mobile && <br />} Get In Touch
         </a>
       </li>
     </ul>
