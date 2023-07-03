@@ -31,10 +31,12 @@ function Experience() {
             </div>
             <div className="top-bar">
               <CompanyDetails>
+                
                 <h2 className="cmp-name">
                   <Work />
                   {exp.name}
                 </h2>
+                <h3 style={{margin:"0 0 8px"}}>Designation: <span style={{color:"var(--green)"}}>{exp.desg}</span></h3>
                 <h3 className="duration">
                   <Date />
                   {exp.duration}

@@ -43,7 +43,8 @@ export const ExperienceData = [
       "Taken responsibility for/jee/ pages (2k + pages) and made the pages rank up / rank in the top 5 of Google search results.",
       "Through my SEO & content strategies, organic traffic to these pages rose by close to 45%.",
       "Received the “Impact Game Changer” certification from the management at BYJU’S as the recognition of the work towards driving more organic traffic to the website."
-    ]
+    ],
+    desg:"Assistant Manager (SEO)"
   },
   {
     name: "BYJU'S",
@@ -73,7 +74,8 @@ export const ExperienceData = [
     ],
     achievements: [
     
-    ]
+    ],
+    desg:"Senior Content Writer"
   },
   {
     name: "Techpearl Pvt.Ltd",
@@ -92,7 +94,8 @@ export const ExperienceData = [
     achievements: [
       "Delivered high-quality Mathematics content for the App - Akshara for CBSE & SSLC boards.",
       "Created videos using PowerPoint on important math tricks & marking schemes in exams."
-    ]
+    ],
+    desg:"Content Developer"
   },
   {
     name: "HirePro Consulting",
@@ -113,7 +116,8 @@ export const ExperienceData = [
     achievements: [
       "Created the highest number of questions for assessment.", 
       "Created assessments with engaging elements as per the client’s requirement."
-    ]
+    ],
+    desg:"Assessment Executive"
   },
   {
     name: "RGUKT, RK Valley, AP",
@@ -125,7 +129,8 @@ export const ExperienceData = [
     ],
     achievements: [
      
-    ]
+    ],
+    desg:"Academic Consultant"
   },
 ];
 
